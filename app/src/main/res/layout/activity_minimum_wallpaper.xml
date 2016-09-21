@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.ahelloworlddev.minimumwallpaper.MinimumWallpaperActivity">
+
+        <TextView
+            android:id="@+id/text_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_intro"
+            android:paddingBottom="@dimen/view_vertical_spacing"
+            android:paddingLeft="@dimen/activity_left_margin"
+            android:paddingRight="@dimen/activity_left_margin"
+            android:paddingTop="@dimen/view_vertical_spacing"
+            android:text="@string/text_intro"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/text_width"
+            style="@style/AppTheme.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_width"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginStart="@dimen/activity_left_margin"
+            android:clickable="true"
+            android:labelFor="@+id/edit_width"
+            android:onClick="onWidthHeightTextViewsClick"
+            android:text="@string/label_width"
+            />
+
+        <EditText
+            android:id="@+id/edit_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_intro"
+            android:layout_marginTop="@dimen/view_vertical_spacing"
+            android:layout_toEndOf="@+id/text_width"
+            android:layout_toRightOf="@+id/text_width"
+            android:inputType="number"
+            android:maxLength="@integer/edit_size_length"
+            android:text="@string/minimum_width"
+            />
+
+        <ImageButton
+            android:id="@+id/button_next_width"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/color_sample_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_width"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/activity_right_margin"
+            android:layout_marginRight="@dimen/activity_right_margin"
+            android:baseline="@dimen/image_button_baseline"
+            android:contentDescription="@string/button_next_width"
+            android:onClick="onNextSizeClick"
+            android:src="@drawable/ic_photo_size_select_small_black_24dp"/>
+
+        <View
+            android:id="@+id/divider_width"
+            style="@style/AppTheme.Divider"
+            android:layout_below="@+id/edit_width"/>
+
+        <TextView
+            android:id="@+id/text_height"
+            style="@style/AppTheme.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_height"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginStart="@dimen/activity_left_margin"
+            android:clickable="true"
+            android:labelFor="@+id/edit_height"
+            android:onClick="onWidthHeightTextViewsClick"
+            android:text="@string/label_height"
+            />
+
+        <EditText
+            android:id="@+id/edit_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_width"
+            android:layout_toEndOf="@+id/text_height"
+            android:layout_toRightOf="@+id/text_height"
+            android:inputType="number"
+            android:maxLength="@integer/edit_size_length"
+            android:text="@string/minimum_height"
+            />
+
+        <ImageButton
+            android:id="@+id/button_next_height"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/color_sample_size"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_height"
+            android:layout_alignLeft="@id/button_next_width"
+            android:layout_alignStart="@id/button_next_width"
+            android:baseline="@dimen/image_button_baseline"
+            android:contentDescription="@string/button_next_height"
+            android:onClick="onNextSizeClick"
+            android:src="@drawable/ic_photo_size_select_small_black_24dp"/>
+
+        <View
+            android:id="@+id/divider_height"
+            style="@style/AppTheme.Divider"
+            android:layout_below="@+id/edit_height"/>
+
+        <TextView
+            android:id="@+id/text_color"
+            style="@style/AppTheme.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_color"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginStart="@dimen/activity_left_margin"
+            android:text="@string/label_color"/>
+
+        <EditText
+            android:id="@+id/edit_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_height"
+            android:layout_marginEnd="@dimen/edit_color_right_margin"
+            android:layout_marginRight="@dimen/edit_color_right_margin"
+            android:layout_toEndOf="@+id/text_color"
+            android:layout_toRightOf="@+id/text_color"
+            android:hint="@string/hint_color"
+            android:inputType="text|textNoSuggestions"
+            android:maxLength="@integer/edit_color_length"
+            android:text="@string/default_color"/>
+
+        <View
+            android:id="@+id/color_sample_view"
+            android:layout_width="@dimen/color_sample_size"
+            android:layout_height="@dimen/color_sample_size"
+            android:layout_alignBottom="@+id/edit_color"
+            android:layout_alignLeft="@id/button_next_height"
+            android:layout_alignStart="@id/button_next_height"
+            android:layout_marginBottom="@dimen/color_sample_bottom_margin_tweak"
+            android:background="@drawable/color_sample"
+            android:onClick="onColorSampleClick"/>
+
+        <View
+            android:id="@+id/divider_color"
+            style="@style/AppTheme.Divider"
+            android:layout_below="@+id/edit_color"
+            />
+
+        <CheckBox
+            android:id="@+id/check_wallpaper_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider_color"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginStart="@dimen/activity_left_margin"
+            android:checked="true"
+            android:text="@string/check_wallpaper_system"
+            android:visibility="@integer/which_wallpaper_visibility"/>
+
+        <View
+            android:id="@+id/divider_system"
+            style="@style/AppTheme.Divider"
+            android:layout_below="@+id/check_wallpaper_system"
+            android:visibility="@integer/which_wallpaper_visibility"
+            />
+
+        <CheckBox
+            android:id="@+id/check_wallpaper_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider_system"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginStart="@dimen/activity_left_margin"
+            android:checked="true"
+            android:text="@string/check_wallpaper_lock"
+            android:visibility="@integer/which_wallpaper_visibility"/>
+
+        <View
+            android:id="@+id/divider_lock"
+            style="@style/AppTheme.Divider"
+            android:layout_below="@id/check_wallpaper_lock"
+            android:visibility="@integer/which_wallpaper_visibility"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider_lock"
+            android:checkedButton="@+id/radio_background"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_left_margin"
+                android:layout_marginRight="@dimen/activity_left_margin"
+                android:text="@string/radio_foreground"
+                />
+
+            <View style="@style/AppTheme.Divider"/>
+
+            <RadioButton
+                android:id="@+id/radio_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_left_margin"
+                android:layout_marginRight="@dimen/activity_left_margin"
+                android:text="@string/radio_background"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/AppTheme.Divider"
+            android:layout_below="@id/radiogroup_run"/>
+
+    </RelativeLayout>
+</ScrollView>

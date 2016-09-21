@@ -1,0 +1,5 @@
+<resources>
+    <!-- Screen margins -->
+    <dimen name="activity_left_margin">32dp</dimen>
+    <dimen name="activity_right_margin">48dp</dimen>
+</resources>

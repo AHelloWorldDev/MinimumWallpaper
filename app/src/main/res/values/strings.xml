@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App name -->
+    <string name="app_name">Minimum Wallpaper</string>
+
+    <!-- Action Bar items -->
+    <string name="action_wallpaper">Set wallpaper</string>
+    <string name="action_sizes">Predefined sizes</string>
+    <string name="action_minimum_size">Use minimum size</string>
+    <string name="action_desired_size">Use desired size</string>
+    <string name="action_display_size">Use display size</string>
+    <string name="action_color_random">Random Color</string>
+    <string name="action_color_black">Reset to Black</string>
+    <string name="action_feedback">Send feedback</string>
+    <string name="action_feedback_url">https://github.com/AHelloWorldDev/MinimumWallpaper/issues</string>
+    <string name="action_help">Help</string>
+    <string name="action_help_url">http://ahelloworlddev.com/minimumwallpaper</string>
+
+    <!-- Toast feedback strings -->
+    <string name="toast_wallpaper_success" tools:ignore="PluralsCandidate">Your wallpaper is now a %1$d x %2$d image</string>
+    <string name="toast_wallpaper_fail" tools:ignore="PluralsCandidate">Failed setting a %1$d x %2$d image as wallpaper\n\n%3$s</string>
+    <string name="toast_next_size">This is the next minimum untested %1$s</string>
+    <string name="toast_error_url">Cannot open url %1$s</string>
+
+    <!-- Log feedback strings -->
+    <string name="log_begin" tools:ignore="PluralsCandidate">Begin setting a %1$d x %2$d image filled with %3$s - %4$s</string>
+
+    <!-- Error feedback on views -->
+    <string name="invalid_size">Invalid size</string>
+    <string name="invalid_color">Invalid color</string>
+
+    <!-- Views and widgets -->
+    <string name="text_intro">Play with wallpaper size and color</string>
+    <string name="label_width">Width</string>
+    <string name="minimum_width">1</string>
+    <string name="label_height">Height</string>
+    <string name="button_next_width">Next untested width</string>
+    <string name="minimum_height">1</string>
+    <string name="button_next_height">Next untested height</string>
+    <string name="label_color">Color</string>
+    <string name="default_color">#000000</string>
+    <string name="hint_color">Color code</string>
+    <string name="check_wallpaper_system">Set on home screen</string>
+    <string name="check_wallpaper_lock">Set on lock screen</string>
+    <string name="radio_foreground">Run in foreground (UI thread)</string>
+    <string name="radio_background">Run in background (IntentService)</string>
+
+    <!-- Preferences keys - should not be modified! -->
+    <string name="pref_next_minimum_width_key" translatable="false">pref_next_minimum_width</string>
+    <string name="pref_next_minimum_height_key" translatable="false">pref_next_minimum_height</string>
+    <string name="pref_width_key" translatable="false">pref_width</string>
+    <string name="pref_height_key" translatable="false">pref_height</string>
+    <string name="pref_color_key" translatable="false">pref_color</string>
+    <string name="pref_wallpaper_system_key" translatable="false">pref_wallpaper_system</string>
+    <string name="pref_wallpaper_lock_key" translatable="false">pref_wallpaper_lock</string>
+    <string name="pref_background_run_key" translatable="false">pref_background_run</string>
+</resources>

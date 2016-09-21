@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="edit_size_length">5</integer>
+    <integer name="edit_color_length">10</integer>
+
+    <!-- Before Android N the Which Wallpaper settings not are available (GONE) -->
+    <integer name="which_wallpaper_visibility">2</integer>
+</resources>

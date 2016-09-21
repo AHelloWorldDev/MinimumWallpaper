@@ -1,0 +1,21 @@
+<resources>
+    <!-- Screen margins -->
+    <dimen name="activity_left_margin">16dp</dimen>
+    <dimen name="activity_right_margin">16dp</dimen>
+
+    <!-- Action Bar -->
+    <dimen name="custom_action_button_padding">12dp</dimen>
+    <dimen name="custom_action_button_text_size">18dp</dimen>
+
+    <!-- Image Buttons -->
+    <dimen name="image_button_baseline">32dp</dimen>
+
+    <!-- Color Sample View -->
+    <dimen name="color_sample_size">32dp</dimen>
+    <dimen name="color_sample_radius">4dp</dimen>
+    <dimen name="color_sample_bottom_margin_tweak">8dp</dimen>
+
+    <!-- View spacing -->
+    <dimen name="view_vertical_spacing">16dp</dimen>
+    <dimen name="edit_color_right_margin">10dp</dimen>
+</resources>

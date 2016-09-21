@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/action_set_wallpaper"
+    style="?android:attr/borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawableLeft="@drawable/ic_check_white_24dp"
+    android:drawablePadding="@dimen/custom_action_button_padding"
+    android:drawableStart="@drawable/ic_check_white_24dp"
+    android:gravity="start|center"
+    android:paddingEnd="@dimen/custom_action_button_padding"
+    android:paddingLeft="@dimen/custom_action_button_padding"
+    android:paddingRight="@dimen/custom_action_button_padding"
+    android:paddingStart="@dimen/custom_action_button_padding"
+    android:text="@string/action_wallpaper"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="@dimen/custom_action_button_text_size"
+    tools:ignore="SpUsage"/>
