@@ -10,6 +10,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Point;
 import android.net.Uri;
+import android.os.Build;
+import android.view.Display;
 import android.view.ViewConfiguration;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -36,12 +38,22 @@ public class SystemUtils {
     /**
      * Returns the width and height of the default display.
      */
+    @SuppressWarnings("deprecation")
     public static Point getDefaultDisplaySize(Context context) {
         Point size = new Point();
         WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
 
-        //windowManager.getDefaultDisplay().getSize(size);
-        windowManager.getDefaultDisplay().getRealSize(size);
+        // Set the wallpaper
+        Display display = windowManager.getDefaultDisplay();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            display.getRealSize(size);
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
+            display.getSize(size);
+        } else {
+            size.x = display.getWidth();
+            size.y = display.getHeight();
+        }
+
         return size;
     }
 

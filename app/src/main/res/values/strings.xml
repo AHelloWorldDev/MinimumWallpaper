@@ -16,8 +16,8 @@
     <string name="action_help_url">http://ahelloworlddev.com/minimumwallpaper</string>
 
     <!-- Toast feedback strings -->
-    <string name="toast_wallpaper_success" tools:ignore="PluralsCandidate">Your wallpaper is now a %1$d x %2$d image</string>
-    <string name="toast_wallpaper_fail" tools:ignore="PluralsCandidate">Failed setting a %1$d x %2$d image as wallpaper\n\n%3$s</string>
+    <string name="toast_wallpaper_success" tools:ignore="PluralsCandidate">Setting a %1$d x %2$d wallpaper successful</string>
+    <string name="toast_wallpaper_fail" tools:ignore="PluralsCandidate">Setting a %1$d x %2$d wallpaper failed: \n\n%3$s</string>
     <string name="toast_next_size">This is the next minimum untested %1$s</string>
     <string name="toast_error_url">Cannot open url %1$s</string>
 
@@ -29,7 +29,7 @@
     <string name="invalid_color">Invalid color</string>
 
     <!-- Views and widgets -->
-    <string name="text_intro">Play with wallpaper size and color</string>
+    <string name="text_intro">Play with wallpaper size and color:</string>
     <string name="label_width">Width</string>
     <string name="minimum_width">1</string>
     <string name="label_height">Height</string>
