@@ -1,3 +1,5 @@
+<a href='https://play.google.com/store/apps/details?id=com.ahelloworlddev.minimumwallpaper'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="240"/></a>
+
 # MinimumWallpaper
 
 ## The Problem
@@ -20,6 +22,14 @@ Minimum Wallpaper has been designed to answer this big question: can your Androi
 
 If not, Minimum Wallpaper can help you find the magic number: **the minimum wallpaper size that works on the device**.
 
+##Download
+
+- [Download from Google Play](https://play.google.com/store/apps/details?id=com.ahelloworlddev.minimumwallpaper)
+
+- [Download APK from Github Releases](https://github.com/AHelloWorldDev/MinimumWallpaper/releases/latest)
+
+## Screenshots
+
 <a href="https://cloud.githubusercontent.com/assets/22292999/18807393/1dcde148-824e-11e6-852a-1bd7e65587a7.png" target="_blank">
   <img src="https://cloud.githubusercontent.com/assets/22292999/18807393/1dcde148-824e-11e6-852a-1bd7e65587a7.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 Start"/>
 </a>
@@ -35,6 +45,10 @@ If not, Minimum Wallpaper can help you find the magic number: **the minimum wall
 Please report your findings using [GitHub Issues](https://github.com/AHelloWorldDev/MinimumWallpaper/issues)
 
 Please include some information about your device, such as manufacturer, model, and Android version. Specify if your device can handle a 1x1 pixel wallpaper. If not, please find and report the minimum wallpaper size that works on your device.
+
+## Contributions
+
+All contributions are welcome: from testing and [feedback](https://github.com/AHelloWorldDev/MinimumWallpaper/issues) to documentation to graphics (app icon) to code.
 
 ## License
 
