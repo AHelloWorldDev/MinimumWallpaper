@@ -2,13 +2,13 @@
 
 ## The Problem
 
-**Q:** How do you set a solid color wallpaper on your Android device?
+**Q:** How do you set a black or color wallpaper on your Android device?
 
-**A:** You set your wallpaper to a tiny 1x1 pixel image with the pixel set to that color (Black, Pink, or #FF5678). Simple, fast, and memory-friendly.
+**A:** You use a tiny 1x1 pixel image with the pixel set to that color (Black, Pink, or #FF5678). Simple, fast, and memory-friendly.
 
 **That should work.**
 
-It does work. Or at least **it does work on most Android devices** out there (including the Nexus devices and others that run stock Android).  The system knows how to fill the entire screen with that one pixel, giving you a full solid color wallpaper. 
+It does work. Or at least **it does work on most Android devices** (including the Nexus devices and others that run stock Android).  The system knows how to fill the entire screen with that one pixel, giving you a full solid color wallpaper. 
 
 However (there is always a "however"), **there are Android devices that crash immediately** after setting the 1x1 pixel image wallpaper: *Unfortunately, System UI has stopped.* And they continue to crash: they crash with 2x2 images, they crash with 3x3 images, they crash with 4x4 images. And so on, until a magic size emerges, and they no longer crash.
 
@@ -16,6 +16,26 @@ For example, for some devices, setting a 32x32 pixel image finally gets your wal
 
 ## The Test App
 
-Minimum Wallpaper has been designed to answer this question: does your Android crash after setting a 1x1 pixel image wallpaper?
+Minimum Wallpaper has been designed to answer this big question: can your Android handle setting a 1x1 pixel image wallpaper?
 
-But more important, Minimum Wallpaper has been designed to find the magic number: **the minimum wallpaper size that works on the device**.
+If not, Minimum Wallpaper can help you find the magic number: **the minimum wallpaper size that works on the device**.
+
+<a href="https://cloud.githubusercontent.com/assets/22292999/18807393/1dcde148-824e-11e6-852a-1bd7e65587a7.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/22292999/18807393/1dcde148-824e-11e6-852a-1bd7e65587a7.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 Start"/>
+</a>
+<a href="https://cloud.githubusercontent.com/assets/22292999/18807394/1dd01170-824e-11e6-8589-617d4cb3d5b9.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/22292999/18807394/1dd01170-824e-11e6-8589-617d4cb3d5b9.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 OK"/>
+</a>
+<a href="https://cloud.githubusercontent.com/assets/22292999/18807395/1dd2b4b6-824e-11e6-8516-422c11cc11f5.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/22292999/18807395/1dd2b4b6-824e-11e6-8516-422c11cc11f5.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 Crash"/>
+</a>
+
+## Feedback
+
+Please report your findings using [GitHub Issues](https://github.com/AHelloWorldDev/MinimumWallpaper/issues)
+
+Please include some information about your device, such as manufacturer, model, and Android version. Specify if your device can handle a 1x1 pixel wallpaper. If not, please find and report the minimum wallpaper size that works on your device.
+
+## License
+
+LoneColor is licensed under the [Apache License](LICENSE).
