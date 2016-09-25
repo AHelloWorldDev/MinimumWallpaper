@@ -1,26 +1,22 @@
 <a href='https://play.google.com/store/apps/details?id=com.ahelloworlddev.minimumwallpaper'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="240"/></a>
 
-# MinimumWallpaper
+# Minimum Wallpaper
 
 ## The Problem
 
-**Q:** How do you set a black or color wallpaper on your Android device?
+**Q:** How do you set a solid color wallpaper on your Android device?
 
 **A:** You use a tiny 1x1 pixel image with the pixel set to that color (Black, Pink, or #FF5678). Simple, fast, and memory-friendly.
 
-**That should work.**
+This works on most Android devices (including Nexus devices and others that run stock Android). The system knows how to fill the entire screen with that one pixel, giving you a full solid color wallpaper.
 
-It does work. Or at least **it does work on most Android devices** (including the Nexus devices and others that run stock Android).  The system knows how to fill the entire screen with that one pixel, giving you a full solid color wallpaper. 
-
-However (there is always a "however"), **there are Android devices that crash immediately** after setting the 1x1 pixel image wallpaper: *Unfortunately, System UI has stopped.* And they continue to crash: they crash with 2x2 images, they crash with 3x3 images, they crash with 4x4 images. And so on, until a magic size emerges, and they no longer crash.
-
-For example, for some devices, setting a 32x32 pixel image finally gets your wallpaper working.
+However, there are some Android devices that crash immediately after setting the 1x1 pixel image wallpaper: *Unfortunately, System UI has stopped.* Trying slightly larger image sizes (2x2, 3x3, 4x4) also fails. For some devices, you need [a 32x32 pixel image](https://github.com/AHelloWorldDev/MinimumWallpaper/issues/1) to finally get your color wallpaper working.
 
 ## The Test App
 
-Minimum Wallpaper has been designed to answer this big question: can your Android handle setting a 1x1 pixel image wallpaper?
+Trying to set a black or color wallpaper on your smartphone or tablet? Can your Android handle a 1x1 pixel image wallpaper? What is the minimum wallpaper size that works on your device? Minimum Wallpaper has been designed to answer these questions.
 
-If not, Minimum Wallpaper can help you find the magic number: **the minimum wallpaper size that works on the device**.
+Although this tiny app has been created for testing purposes, it can successfully be used to set a black or color wallpaper on your Android device.
 
 ##Download
 
@@ -52,4 +48,4 @@ All contributions are welcome: from testing and [feedback](https://github.com/AH
 
 ## License
 
-LoneColor is licensed under the [Apache License](LICENSE).
+Minimum Wallpaper is licensed under the [Apache License](LICENSE).
