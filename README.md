@@ -10,7 +10,7 @@
 
 This works on most Android devices (including Nexus devices and others that run stock Android). The system knows how to fill the entire screen with that one pixel, giving you a full solid color wallpaper.
 
-However, there are some Android devices that crash immediately after setting the 1x1 pixel image wallpaper: *Unfortunately, System UI has stopped.* Trying slightly larger image sizes (2x2, 3x3, 4x4) also fails. For some devices, you need [a 32x32 pixel image](https://github.com/AHelloWorldDev/MinimumWallpaper/issues/1) to finally get your color wallpaper working.
+However, there are some Android devices that give errors immediately after setting the 1x1 pixel image wallpaper: *Unfortunately, System UI has stopped* or *Unfortunately, Home has stopped*. Trying slightly larger image sizes (2x2, 3x3, 4x4) also fails. For some devices, you need [a 32x32 pixel image](https://github.com/AHelloWorldDev/MinimumWallpaper/issues/1) to finally get your color wallpaper working.
 
 ## The Test App
 
