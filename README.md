@@ -32,8 +32,8 @@ Although this tiny app has been created for testing purposes, it can successfull
 <a href="https://cloud.githubusercontent.com/assets/22292999/18815529/4515d5d6-833d-11e6-8401-955c75432d2f.png" target="_blank">
   <img src="https://cloud.githubusercontent.com/assets/22292999/18815529/4515d5d6-833d-11e6-8401-955c75432d2f.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 OK"/>
 </a>
-<a href="https://cloud.githubusercontent.com/assets/22292999/18815528/4510b754-833d-11e6-8c95-6810b4bf5767.png" target="_blank">
-  <img src="https://cloud.githubusercontent.com/assets/22292999/18815528/4510b754-833d-11e6-8c95-6810b4bf5767.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 Crash"/>
+<a href="https://cloud.githubusercontent.com/assets/22292999/18846133/3871e3f6-842d-11e6-8211-86d9ddf29b88.png" target="_blank">
+  <img src="https://cloud.githubusercontent.com/assets/22292999/18846133/3871e3f6-842d-11e6-8211-86d9ddf29b88.png" width="207"     alt="Minimum Wallpaper Screenshot - 1x1 Errors"/>
 </a>
 
 ## Feedback
