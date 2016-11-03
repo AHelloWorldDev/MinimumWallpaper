@@ -18,6 +18,14 @@ Trying to set a black or color wallpaper on your smartphone or tablet? Can your 
 
 Although this tiny app has been created for testing purposes, it can successfully be used to set a black or color wallpaper on your Android device.
 
+## Devices That Need Testing
+
+- **LG**: G5, Stylus 2, X screen
+- **Meizu**: m1 note, m2 note, m3 note, MX5, Pro 6
+- **OnePlus** X
+- **Symphony Teleca**: M3s, VIVO 5
+
+
 ##Download
 
 - [Download from Google Play](https://play.google.com/store/apps/details?id=com.ahelloworlddev.minimumwallpaper)
